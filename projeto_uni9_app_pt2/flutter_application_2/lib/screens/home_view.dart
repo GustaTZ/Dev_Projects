@@ -11,11 +11,11 @@ class _HomeViewState extends State<HomeView> {
   final List<Category> catego = [
     Category(
       imagUrl: "assets/images/emily.png",
-      name: "Yoga exercises",
+      name: "Yoga",
     ),
     Category(
       imagUrl: "assets/images/sule.png",
-      name: "Example exercises",
+      name: "Exercicios Intensos",
     ),
     Category(
       imagUrl: "assets/images/alexsandra.png",
@@ -211,7 +211,7 @@ class _HomeViewState extends State<HomeView> {
                 child: Row(
                   children: [
                     Text(
-                      "Popular Workout",
+                      "Treinos Populares",
                       style: GoogleFonts.lato(
                         fontSize: 30,
                         color: Colors.white,
