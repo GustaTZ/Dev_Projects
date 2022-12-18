@@ -1,0 +1,351 @@
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background:url(../img/logokainos.png) fixed center;
+    background-image: url(../img/logokainos.png);
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(231,230,236);
+}
+
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;700&display=swap');
+/*reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --cyan: #057F7E;
+    --orange: #F0F0F0;
+    --blue: #C4C4C4;
+    --gray: #ededed;
+}
+html, body{
+    overflow: visible;
+}
+header{
+    width: 100em;
+    height: 570px;
+    display: flex;
+}
+.content{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+nav{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.brand{
+    font-size: 24px;
+    color: cyan;
+    cursor: pointer;
+}
+.content img{
+    margin-left: -600%;
+    height: auto; 
+    width: auto; 
+    margin: left;
+    max-width: 100px; 
+    max-height: 100px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+nav ul li a{
+    color: var(--blue);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: var(--cyan);
+}
+
+
+.content .contato{
+
+    color: var(--cyan);
+    list-style: none;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 315%;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background: white;
+}
+.contato:hover{
+    transition: background, color 0.6s;
+    background: var(--cyan);
+    color: var(--orange);
+}
+.contato button{
+    margin-top: 11%;
+    border: 1px solid rgb(172, 176, 180);
+    background-color: var(--blue);
+    padding: 8px 40px;
+    cursor: pointer;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.content .custom-logo   {
+    margin-top: 4%;
+    margin-left: 120%;
+    max-width: 250px;
+    min-width: 250px;
+    height: 300px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+    padding: 15px;
+}
+.content .botao{
+    color: var(--orange);
+    margin-top: 2%;
+    margin-left: 140%;
+    max-width: 150px;
+    min-width: 150px;
+    text-align: center;
+    height: 51px;
+    background: coral;
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 9;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.botao:hover{
+    transition: background, color 0.6s;
+    background: white;
+    color: black;
+}
+.botao button{
+    margin-top: 11%;
+    border: 1px solid rgb(172, 176, 180);
+    background-color: var(--blue);
+    padding: 8px 40px;
+    cursor: pointer;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/*Footer*/
+footer{
+    margin-top: 5.5%;
+    width: 100%;
+    height: 150px;
+}
+footer .main{
+    width: 100%;
+    height: 100%;
+    background: var(--orange);
+
+}
+.footer-links{
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer-company img{
+    height: auto; 
+    width: auto; 
+    margin-top: 15%;
+    margin-left: -65%;
+    max-width: 150px; 
+    max-height: 150px;
+}
+footer .main{
+    width: 100%;
+    height: 100%;
+    background-color: #4D4F51;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-company, .footer-rental, .footer-contact, .footer-social{
+    color: white;
+    height: 100%;
+    min-height: 100px;
+    margin: 0px 10px 10px 10px;
+}
+.footer-social {
+    margin-top: 2%;
+}
+.main .footer-social img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 10px 10px;
+}
+.main .footer-contact{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+}
+.main .footer-contact .imgg{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+.main .footer-contact img{
+    width: 25px;
+    height: 25px;
+    display: flex;
+}
+footer .last{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Responsive adjustments*/
+@media (max-width: 576px){
+    nav ul li{
+        display: none;
+    }
+
+    body{
+        background:url(../img/logokainos.png) fixed center;
+        background-image: url(../img/logokainos.png);
+        background-attachment: fixed;
+        background-position: top left;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: var(--blue);
+    }
+    header{
+        width: 100em;
+        height: 400px;
+        display: inline;
+    }
+    .content img{
+        margin-left: auto;
+        height: auto; 
+        width: auto; 
+        margin: left;
+        max-width: 100px; 
+        max-height: 100px;
+    }
+    footer{
+        height: 100%;
+        margin-top: 37%;
+    }
+    footer .main{
+        height: 100%;
+    }
+    .main .footer-contact {
+        display: inline-block;
+        padding-left: 0px;
+    }
+    .main .footer-social img{
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .content .custom-logo   {
+        margin-top: 28%;
+        margin-left: auto;
+        margin-right: 24%;
+        max-width: 200px;
+        min-width: 150px;
+        height: 90px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        position: relative;
+        z-index: 10;
+        padding: 15px;
+    }
+    .content .botao{
+        color: var(--orange);
+        margin-top: -46%;
+        margin-left: 74%;
+        max-width: 80px;
+        min-width: 80px;
+        text-align: center;
+        height: 51px;
+        background: coral;
+        border-radius: 10px;
+        box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        position: relative;
+        z-index: 9;
+        border: none;
+        padding: 15px;
+        cursor: pointer;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    .botao:hover{
+        transition: background, color 0.6s;
+        background: white;
+        color: black;
+    }
+    .botao button{
+        margin-top: 11%;
+        border: 1px solid rgb(172, 176, 180);
+        background-color: var(--blue);
+        padding: 8px 40px;
+        cursor: pointer;
+        margin-left: 30px;
+        color: white;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+}
