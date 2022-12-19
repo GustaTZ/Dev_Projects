@@ -253,14 +253,15 @@ footer .last{
     }
 
     body{
-        background:url(../img/logokainos.png) fixed center;
-        background-image: url(../img/logokainos.png);
+        background:url(../img/logokainos.jpeg) fixed center;
+        background-image: url(../img/logokainos.jpeg);
         background-attachment: fixed;
         background-position: top left;
         position: relative;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 65%;
         background-color: var(--blue);
+        align-items: center;
     }
     header{
         width: 100em;
@@ -296,9 +297,10 @@ footer .last{
     }
 
     .content .custom-logo   {
-        margin-top: 28%;
+        margin-top: 15%;
         margin-left: auto;
-        margin-right: 24%;
+        margin-right: 46%;
+        margin-bottom: 16%;
         max-width: 200px;
         min-width: 150px;
         height: 90px;
@@ -313,8 +315,8 @@ footer .last{
     }
     .content .botao{
         color: var(--orange);
-        margin-top: -46%;
-        margin-left: 74%;
+        margin-top: -60%;
+        margin-left: 1%;
         max-width: 80px;
         min-width: 80px;
         text-align: center;
