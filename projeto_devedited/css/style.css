@@ -33,7 +33,7 @@ header{
 }
 nav{
     background-color: rgb(107,109,114);
-    width: 100%;
+    width: 95%;
     border-radius: 8px;
     height: 100px;
     display: flex;
