@@ -8,7 +8,7 @@ body{
     background-position: top;
     position: relative;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 88%;
     background-color: rgb(231,230,236);
 }
 
@@ -116,7 +116,7 @@ nav ul li a:hover{
 }
 .content .custom-logo   {
     margin-top: 4%;
-    margin-left: 120%;
+    margin-left: 110%;
     max-width: 250px;
     min-width: 250px;
     height: 300px;
@@ -132,7 +132,7 @@ nav ul li a:hover{
 .content .botao{
     color: var(--orange);
     margin-top: 2%;
-    margin-left: 140%;
+    margin-left: 130%;
     max-width: 150px;
     min-width: 150px;
     text-align: center;
